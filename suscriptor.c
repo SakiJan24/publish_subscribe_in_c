@@ -27,7 +27,7 @@ void suscribirse(char *pipe) {
     char temas[5];
     while(cont == 1){
         printf("\nIngrese el tema al que desea suscribirse");
-        printf("\n1) A\n2) E\n3) C\n4) P\n5) S\n");
+        printf("\n1) A\n2) E\n3) C\n4) P\n5) S\n"       );
         char tema = getchar();
         getchar();
         printf("\nTema selecionado: %c\n",tema);
