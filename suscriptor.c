@@ -23,6 +23,7 @@ void suscribirse(char *pipe) {
     }
     int cont = 1;
     int i = 0;
+    printf("hola k hace");
     char temas[5];
     while(cont == 1){
         printf("\nIngrese el tema al que desea suscribirse");
